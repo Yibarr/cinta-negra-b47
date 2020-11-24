@@ -1,0 +1,25 @@
+{
+  "name": "clase-3",
+  "version": "0.0.1",
+  "description": "Este es un API prueba para conectarnos con la base de datos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "API",
+    "express"
+  ],
+  "author": "Yael Ibarra",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
