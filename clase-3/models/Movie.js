@@ -19,7 +19,7 @@ const MovieSchema = new Schema({
       ref: 'Directors'
     }
   ]
-})
+}, { timestamps: true })
 
 const Movie = model('Movies', MovieSchema)
 
